@@ -9,7 +9,7 @@ chart1.seriesType("area");
 // create data for both charts
 chart1.data([1.1171,1.1241,1.1262,1.1381,1.1471]);
 // chart colours
-chart1.fill('rgba(36,214,131,0.7)')
+chart1.fill('rgba(36,214,131,0.4)')
 chart1.stroke('#24d683')
 // set charts dimensions and postition
 chart1.bounds(0, 0, 200, 50);
@@ -28,7 +28,7 @@ chart1.seriesType("area");
 // create data for both charts
 chart1.data([1.1171,1.1241,1.1262,1.1221,1.1171]);
 // chart colours
-chart1.fill('rgba(255,187,83,0.7)')
+chart1.fill('rgba(255,187,83,0.4)')
 chart1.stroke('#ffbb53')
 // set charts dimensions and postition
 chart1.bounds(0, 0, 200, 50);
@@ -47,7 +47,7 @@ chart1.seriesType("area");
 // create data for both charts
 chart1.data([1.1171,1.1241,1.1262,1.1381,1.1391]);
 // chart colours
-chart1.fill('rgba(36,214,131,0.7)')
+chart1.fill('rgba(36,214,131,0.4)')
 chart1.stroke('#24d683')
 // set charts dimensions and postition
 chart1.bounds(0, 0, 200, 50);
@@ -66,7 +66,7 @@ chart1.seriesType("area");
 // create data for both charts
 chart1.data([1.3171,1.2741,1.2262,1.1781,1.1291]);
 // chart colours
-chart1.fill('rgba(255,67,64,0.7)')
+chart1.fill('rgba(255,67,64,0.4)')
 chart1.stroke('#ff4340')
 // set charts dimensions and postition
 chart1.bounds(0, 0, 200, 50);
