@@ -285,3 +285,25 @@ chart1.yScale().maximum(1.5);
 chart1.container(stage);
 // initiate chart drawing
 chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 14////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-14');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([1,1,1,1,1]);
+// chart colours
+chart1.fill('rgba(36,214,131,0.4)')
+chart1.stroke('#24d683')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
