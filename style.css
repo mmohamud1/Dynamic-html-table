@@ -16,3 +16,28 @@ body {
 .table {
   width: 100%;
 }
+
+th {
+  color: #3D6671;
+  padding: 5px;
+}
+
+td {
+  text-align: center;
+  padding: 5px;
+  color: #7C868E;
+}
+
+.b-0 {
+  border: none;
+}
+
+.row-h {
+  width: 10%;
+}
+
+.row-sub-h {
+  text-align: start;
+  font-size: 14px;
+  width: 20%;
+}
