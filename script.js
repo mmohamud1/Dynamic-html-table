@@ -55,3 +55,22 @@ chart1.bounds(0, 0, 200, 50);
 chart1.container(stage);
 // initiate chart drawing
 chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 4////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-4');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([1.3171,1.2741,1.2262,1.1781,1.1291]);
+// chart colours
+chart1.fill('rgba(255,67,64,0.7)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();

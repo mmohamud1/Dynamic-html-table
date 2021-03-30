@@ -84,3 +84,11 @@ td {
 .degraded-border {
   border: 1px #ffbb53 solid;
 }
+
+.failed-colour {
+  color: #ff4340;
+}
+
+.failed-border {
+  border: 1px #ff4340 solid;
+}
