@@ -24,7 +24,7 @@ th {
 
 td {
   text-align: center;
-  padding: 5px;
+
   color: #7C868E;
 }
 
@@ -40,4 +40,36 @@ td {
   text-align: start;
   font-size: 14px;
   width: 20%;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card-score, .card-status {
+  margin: 0;
+  padding: 5px;
+}
+
+.ok-colour {
+  color: #24d683;
+}
+
+.ok-border {
+  border: 1px #24d683 solid;
+}
+
+.card-graph {
+  width: 100px;
+  height: 60px;
 }
