@@ -439,3 +439,164 @@ chart1.yScale().maximum(1.5);
 chart1.container(stage);
 // initiate chart drawing
 chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 22////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-22');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 23////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-23');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 24////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-24');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 25////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-25');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 26////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-26');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 27////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-27');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
+//////////////////////////////////////////////////////////////GRAPH 28////////////////////////////////////////////////////////////////
+var stage = anychart.graphics.create('card-graph-28');
+// create charts
+chart1 = anychart.sparkline();
+// setting the titles
+chart1.title("EUR/USD");
+// set series type
+chart1.seriesType("area");
+// create data for both charts
+chart1.data([0,0,0,0,0]);
+// chart colours
+// chart colours
+chart1.fill('rgba(255,67,64,0.4)')
+chart1.stroke('#ff4340')
+// set charts dimensions and postition
+chart1.bounds(0, 0, 200, 50);
+// scale
+chart1.yScale().minimum(-0.5);
+chart1.yScale().maximum(1.5);
+// set container id for the charts
+chart1.container(stage);
+// initiate chart drawing
+chart1.draw();
