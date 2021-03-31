@@ -1,18 +1,13 @@
 [
     [
-       null,
-       null,
-       "Protect",
-       null,
+       "",
+       "",
+       "Protect", 
        "Detect",
-       null,
-       "<i class='test-anychart-html'>Respond</i>",
-       null,
+       "Respond",
        "Overall Risk Rating"
     ],
     [
-       null,
-       null,
        "PR.IP-1",
        "PR.AC-1",
        "DE.CM-7",
@@ -23,8 +18,8 @@
     [
        "Organisational InfoSec Risks",
        "External data breach",
-       "Ok",
-       "Degraded",
+       ["99%","Ok", [1.1171,1.1241,1.1262,1.1381,1.1471]],
+       ["52%","Degraded",[1.1171,1.1241,1.1262,1.1221,1.1171]],
        "Ok",
        "Failed",
        "Ok",
