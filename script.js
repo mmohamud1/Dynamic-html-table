@@ -1,5 +1,7 @@
 //////////////////////////////////////////////////////////////GRAPH 1////////////////////////////////////////////////////////////////
 var stage = anychart.graphics.create('card-graph-1');
+ // Remove Watermark
+ stage.credits().enabled(false);
 // create charts
 chart1 = anychart.sparkline();
 // setting the titles
@@ -15,6 +17,7 @@ chart1.stroke('#24d683')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 2////////////////////////////////////////////////////////////////
@@ -34,6 +37,7 @@ chart1.stroke('#ffbb53')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 3////////////////////////////////////////////////////////////////
@@ -53,6 +57,7 @@ chart1.stroke('#24d683')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 4////////////////////////////////////////////////////////////////
@@ -72,6 +77,7 @@ chart1.stroke('#ff4340')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 5////////////////////////////////////////////////////////////////
@@ -91,6 +97,7 @@ chart1.stroke('#24d683')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 6////////////////////////////////////////////////////////////////
@@ -110,6 +117,7 @@ chart1.stroke('#ff4340')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 7////////////////////////////////////////////////////////////////
@@ -129,6 +137,7 @@ chart1.stroke('#ffbb53')
 chart1.bounds(0, 0, 200, 50);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 8////////////////////////////////////////////////////////////////
@@ -151,6 +160,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 9////////////////////////////////////////////////////////////////
@@ -173,6 +183,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 10////////////////////////////////////////////////////////////////
@@ -195,6 +206,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 11////////////////////////////////////////////////////////////////
@@ -217,6 +229,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 12////////////////////////////////////////////////////////////////
@@ -239,6 +252,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 13////////////////////////////////////////////////////////////////
@@ -261,6 +275,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 14////////////////////////////////////////////////////////////////
@@ -283,6 +298,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 15////////////////////////////////////////////////////////////////
@@ -305,6 +321,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 16////////////////////////////////////////////////////////////////
@@ -327,6 +344,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 17////////////////////////////////////////////////////////////////
@@ -349,6 +367,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 18////////////////////////////////////////////////////////////////
@@ -371,6 +390,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 19////////////////////////////////////////////////////////////////
@@ -393,6 +413,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 20////////////////////////////////////////////////////////////////
@@ -415,6 +436,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 21////////////////////////////////////////////////////////////////
@@ -437,6 +459,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 22////////////////////////////////////////////////////////////////
@@ -460,6 +483,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 23////////////////////////////////////////////////////////////////
@@ -483,6 +507,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 24////////////////////////////////////////////////////////////////
@@ -506,6 +531,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 25////////////////////////////////////////////////////////////////
@@ -529,6 +555,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 26////////////////////////////////////////////////////////////////
@@ -552,6 +579,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 27////////////////////////////////////////////////////////////////
@@ -575,6 +603,7 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
 //////////////////////////////////////////////////////////////GRAPH 28////////////////////////////////////////////////////////////////
@@ -598,5 +627,6 @@ chart1.yScale().minimum(-0.5);
 chart1.yScale().maximum(1.5);
 // set container id for the charts
 chart1.container(stage);
+chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();

@@ -26,7 +26,6 @@ th {
 
 td {
   text-align: center;
-
   color: #7c868e;
 }
 
@@ -35,12 +34,16 @@ td {
 }
 
 .col-h {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .row-h {
-  width: 10%;
-  font-size: 13px;
+  font-size: 12px;
+  /* transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg); */
 }
 
 .row-sub-h {
@@ -53,6 +56,7 @@ td {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .card-info {
@@ -71,6 +75,7 @@ td {
 }
 
 .card-graph {
+  padding: 2px;
   width: 80px;
   height: 60px;
 }
@@ -97,4 +102,8 @@ td {
 
 .failed-border {
   border: 1px #ff4340 solid;
+}
+
+.bg-grey {
+  background-color: #F3F4F6;
 }

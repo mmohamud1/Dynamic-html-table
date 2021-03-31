@@ -1,0 +1,67 @@
+[
+    [
+       null,
+       null,
+       "Protect",
+       null,
+       "Detect",
+       null,
+       "<i class='test-anychart-html'>Respond</i>",
+       null,
+       "Overall Risk Rating"
+    ],
+    [
+       null,
+       null,
+       "PR.IP-1",
+       "PR.AC-1",
+       "DE.CM-7",
+       "DE.CM-3",
+       "RS.MI-3",
+       "RS.AN-5"
+    ],
+    [
+       "Organisational InfoSec Risks",
+       "External data breach",
+       "Ok",
+       "Degraded",
+       "Ok",
+       "Failed",
+       "Ok",
+       "Failed",
+       "Degraded"
+    ],
+    [
+       null,
+       "Internal data breach",
+       "Ok",
+       "Ok",
+       "Ok",
+       "Ok",
+       "Ok",
+       "Ok",
+       "Ok"
+    ],
+    [
+       null,
+       "Denial/Distributed Denial of Service",
+       "Degraded",
+       "Degraded",
+       "Degraded",
+       "Degraded",
+       "Degraded",
+       "Degraded",
+       "Degraded"
+    ],
+    [
+       null,
+       "Supply Chain Security compromise",
+       "Failed",
+       "Failed",
+       "Failed",
+       "Failed",
+       "Failed",
+       "Failed",
+       "Failed"
+    ]
+ ]
