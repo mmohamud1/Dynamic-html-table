@@ -44,9 +44,7 @@ tableData = [
   ],
 ];
 
-for (i = 0; i < tableData.length; i++) {
-    
-}
+console.log(firstArr)
 
 // Get Dom elemnts
 var container = document.getElementById("table-container");
