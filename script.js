@@ -47,6 +47,7 @@ tableData = [
 // Get Dom elemnts
 var container = document.getElementById('table-container')
 var table = document.createElement('table');
+//////////////////////////////////////////////////////////// ROW 1 //////////////////////////////////////////
 var tr = table.insertRow(0);
 var td1 = document.createElement('td')
 var td2 = document.createElement('td')
@@ -65,6 +66,8 @@ th3.className = 'col-h'
 th4.className = 'col-h'
 
 // Add col & row spans
+td1.rowSpan = "2"
+td2.rowSpan = "2"
 th1.colSpan = "2"
 th2.colSpan = "2"
 th3.colSpan = "2"
@@ -76,19 +79,62 @@ th2.scope = "colgroup"
 th3.scope = "colgroup"
 th4.scope = "rowgroup"
 
+// inner html
+td1.innerHTML = ''
+td2.innerHTML = ''
+th1.innerHTML = 'Test'
+th2.innerHTML = 'Test'
+th3.innerHTML = 'Test'
+th4.innerHTML = 'Test'
+
+tr.appendChild(td1)
+tr.appendChild(td2)
+tr.appendChild(th1)
+tr.appendChild(th2)
+tr.appendChild(th3)
+tr.appendChild(th4)
+
+//////////////////////////////////////////////////////////// ROW 2 //////////////////////////////////////////
+
+var tr2 = table.insertRow(1)
+
+var th5 = document.createElement('th')
+var th6 = document.createElement('th')
+var th7 = document.createElement('th')
+var th8 = document.createElement('th')
+var th9 = document.createElement('th')
+var th10 = document.createElement('th')
+
+th5.className = 'col-h'
+th6.className = 'col-h'
+th7.className = 'col-h'
+th8.className = 'col-h'
+th9.className = 'col-h'
+th10.className = 'col-h'
+
+th5.scope = 'col'
+th6.scope = 'col'
+th7.scope = 'col'
+th8.scope = 'col'
+th9.scope = 'col'
+th10.scope = 'col'
+
+th5.innerHTML = 'Test'
+th6.innerHTML = 'Test'
+th7.innerHTML = 'Test'
+th8.innerHTML = 'Test'
+th9.innerHTML = 'Test'
+th10.innerHTML = 'Test'
+
+tr2.appendChild(th5)
+tr2.appendChild(th6)
+tr2.appendChild(th7)
+tr2.appendChild(th8)
+tr2.appendChild(th9)
+tr2.appendChild(th10)
 
 
-
-
-
-var cell1 = tr.insertCell(0);
-var cell2 = tr.insertCell(1);
-// Add some text to the new cells:
-cell1.innerHTML = "NEW CELL1";
-cell2.innerHTML = "NEW CELL2";
-
-
-
+// ADD TABLE TO DIV
 container.appendChild(table)
 
 
