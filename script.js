@@ -44,6 +44,10 @@ tableData = [
   ],
 ];
 
+for (i = 0; i < tableData.length; i++) {
+    
+}
+
 // Get Dom elemnts
 var container = document.getElementById('table-container')
 var table = document.createElement('table');
