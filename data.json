@@ -27,7 +27,7 @@
        ["72%","Degraded",[1.1171,1.1241,1.1162,1.1321,1.1171]]   
     ],
     [
-       null,
+
        "Internal data breach",
        ["100%","Ok", [1,1,1,1,1]],
        ["100%","Ok", [1,1,1,1,1]],
@@ -38,7 +38,6 @@
        ["100%","Ok", [1,1,1,1,1]]
     ],
     [
-       null,
        "Denial/Distributed Denial of Service",
        ["50%","Degraded", [0.5,0.5,0.5,0.5,0.5]],
        ["50%","Degraded", [0.5,0.5,0.5,0.5,0.5]],
@@ -49,14 +48,13 @@
        ["50%","Degraded", [0.5,0.5,0.5,0.5,0.5]]
     ],
     [
-       null,
        "Supply Chain Security compromise",
-       "Failed",
-       "Failed",
-       "Failed",
-       "Failed",
-       "Failed",
-       "Failed",
-       "Failed"
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]],
+       ["0%","Failed", [0,0,0,0,0]]
     ]
  ]
