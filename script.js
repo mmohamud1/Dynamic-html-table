@@ -1,3 +1,47 @@
+var jsonData = require('./data.json')
+
+console.log(jsonData)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //////////////////////////////////////////////////////////////GRAPH 1////////////////////////////////////////////////////////////////
 var stage = anychart.graphics.create('card-graph-1');
  // Remove Watermark
