@@ -630,4 +630,3 @@ chart1.container(stage);
 chart1.background().fill("#F3F4F6");
 // initiate chart drawing
 chart1.draw();
-ƒ
