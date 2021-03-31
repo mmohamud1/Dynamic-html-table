@@ -45,23 +45,18 @@ tableData = [
 ];
 var container = document.getElementById('table-container')
 var table = document.createElement('table');
+var tr = table.insertRow(0);
+var th = document.createElement('th')
+table.className = 'table'
 
-for (var i = 1; i < 4; i++){
-    var tr = document.createElement('tr');   
 
-    var td1 = document.createElement('td');
-    var td2 = document.createElement('td');
+var cell1 = tr.insertCell(0);
+var cell2 = tr.insertCell(1);
+// Add some text to the new cells:
+cell1.innerHTML = "NEW CELL1";
+cell2.innerHTML = "NEW CELL2";
 
-    var text1 = document.createTextNode('Text1');
-    var text2 = document.createTextNode('Text2');
 
-    td1.appendChild(text1);
-    td2.appendChild(text2);
-    tr.appendChild(td1);
-    tr.appendChild(td2);
-
-    table.appendChild(tr);
-}
 
 container.appendChild(table)
 
