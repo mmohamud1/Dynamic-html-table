@@ -43,11 +43,42 @@ tableData = [
     ["0%", "Failed", [0, 0, 0, 0, 0]],
   ],
 ];
+
+// Get Dom elemnts
 var container = document.getElementById('table-container')
 var table = document.createElement('table');
 var tr = table.insertRow(0);
-var th = document.createElement('th')
+var td1 = document.createElement('td')
+var td2 = document.createElement('td')
+var th1 = document.createElement('th')
+var th2 = document.createElement('th')
+var th3 = document.createElement('th')
+var th4 = document.createElement('th')
+
+// Add classes
 table.className = 'table'
+td1.className = 'b-0'
+td2.className = 'b-0'
+th1.className = 'col-h'
+th2.className = 'col-h'
+th3.className = 'col-h'
+th4.className = 'col-h'
+
+// Add col & row spans
+th1.colSpan = "2"
+th2.colSpan = "2"
+th3.colSpan = "2"
+th4.rowSpan = "2"
+
+// Add scope 
+th1.scope = "colgroup"
+th2.scope = "colgroup"
+th3.scope = "colgroup"
+th4.scope = "rowgroup"
+
+
+
+
 
 
 var cell1 = tr.insertCell(0);
