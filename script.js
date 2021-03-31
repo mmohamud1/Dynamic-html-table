@@ -43,10 +43,27 @@ tableData = [
     ["0%", "Failed", [0, 0, 0, 0, 0]],
   ],
 ];
+var container = document.getElementById('table-container')
+var table = document.createElement('table');
 
-console.log(tableData)
+for (var i = 1; i < 4; i++){
+    var tr = document.createElement('tr');   
 
+    var td1 = document.createElement('td');
+    var td2 = document.createElement('td');
 
+    var text1 = document.createTextNode('Text1');
+    var text2 = document.createTextNode('Text2');
+
+    td1.appendChild(text1);
+    td2.appendChild(text2);
+    tr.appendChild(td1);
+    tr.appendChild(td2);
+
+    table.appendChild(tr);
+}
+
+container.appendChild(table)
 
 
 

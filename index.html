@@ -9,302 +9,308 @@
   </head>
   <body>
     <div class="container">
-      <table class="table">
-        <col />
-        <colgroup span="2"></colgroup>
-        <colgroup span="2"></colgroup>
-        <tr>
-          <td class="b-0" rowspan="2"></td>
-          <td class="b-0" rowspan="2"></td>
-          <th class="col-h" colspan="2" scope="colgroup">Protect</th>
-          <th class="col-h" colspan="2" scope="colgroup">Detect</th>
-          <th class="col-h" colspan="2" scope="colgroup">Respond</th>
-          <th class="col-h" rowspan="2" scope="rowgroup">
-            Overall Risk Rating
-          </th>
-        </tr>
-        <tr>
-          <th class="col-h" scope="col">PR.IP-1</th>
-          <th class="col-h" scope="col">PR.AC-1</th>
-          <th class="col-h" scope="col">DE.CM-7</th>
-          <th class="col-h" scope="col">DE.CM-3</th>
-          <th class="col-h" scope="col">RS.MI-3</th>
-          <th class="col-h" scope="col">RS.AN-5</th>
-        </tr>
+      <!--HARDCODED TABLE-->
+      <div class="table-1 mb">
+        <table class="table">
+          <col />
+          <colgroup span="2"></colgroup>
+          <colgroup span="2"></colgroup>
+          <tr>
+            <td class="b-0" rowspan="2"></td>
+            <td class="b-0" rowspan="2"></td>
+            <th class="col-h" colspan="2" scope="colgroup">Protect</th>
+            <th class="col-h" colspan="2" scope="colgroup">Detect</th>
+            <th class="col-h" colspan="2" scope="colgroup">Respond</th>
+            <th class="col-h" rowspan="2" scope="rowgroup">
+              Overall Risk Rating
+            </th>
+          </tr>
+          <tr>
+            <th class="col-h" scope="col">PR.IP-1</th>
+            <th class="col-h" scope="col">PR.AC-1</th>
+            <th class="col-h" scope="col">DE.CM-7</th>
+            <th class="col-h" scope="col">DE.CM-3</th>
+            <th class="col-h" scope="col">RS.MI-3</th>
+            <th class="col-h" scope="col">RS.AN-5</th>
+          </tr>
+  
+          <tr>
+            <th class="row-h" rowspan="4" scope="rowgroup">
+              Organisational InfoSec Risks
+            </th>
+            <th class="row-sub-h" scope="row">External Data Breach</th>
+            <td>
+              <div class="card ok-border bg-grey bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">99%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-1"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">52%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-2"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">83%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-3"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">23%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-4"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">93%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-5"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">13%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-6"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">72%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-7"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-sub-h" scope="row">Internal Data Breach</th>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-8"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-9"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-10"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-11"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-12"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-13"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card ok-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score ok-colour">100%</h5>
+                  <h5 class="card-status ok-colour">OK</h5>
+                </div>
+                <div class="card-graph" id="card-graph-14"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-sub-h" scope="row">
+              Denial/Distributed Denial of Service
+            </th>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-15"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-16"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-17"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-18"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-19"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-20"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card degraded-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score degraded-colour">50%</h5>
+                  <h5 class="card-status degraded-colour">Degraded</h5>
+                </div>
+                <div class="card-graph" id="card-graph-21"></div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <th class="row-sub-h" scope="row">
+              Supply Chain Security Compromise
+            </th>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-22"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-23"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-24"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-25"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-26"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-27"></div>
+              </div>
+            </td>
+            <td>
+              <div class="card failed-border bg-grey">
+                <div class="card-info">
+                  <h5 class="card-score failed-colour">0%</h5>
+                  <h5 class="card-status failed-colour">Failed</h5>
+                </div>
+                <div class="card-graph" id="card-graph-28"></div>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!--DYNAMIC TABLE-->
+      <div class="table-2" id="table-container">
 
-        <tr>
-          <th class="row-h" rowspan="4" scope="rowgroup">
-            Organisational InfoSec Risks
-          </th>
-          <th class="row-sub-h" scope="row">External Data Breach</th>
-          <td>
-            <div class="card ok-border bg-grey bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">99%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-1"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">52%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-2"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">83%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-3"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">23%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-4"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">93%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-5"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">13%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-6"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">72%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-7"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <th class="row-sub-h" scope="row">Internal Data Breach</th>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-8"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-9"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-10"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-11"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-12"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-13"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card ok-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score ok-colour">100%</h5>
-                <h5 class="card-status ok-colour">OK</h5>
-              </div>
-              <div class="card-graph" id="card-graph-14"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <th class="row-sub-h" scope="row">
-            Denial/Distributed Denial of Service
-          </th>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-15"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-16"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-17"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-18"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-19"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-20"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card degraded-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score degraded-colour">50%</h5>
-                <h5 class="card-status degraded-colour">Degraded</h5>
-              </div>
-              <div class="card-graph" id="card-graph-21"></div>
-            </div>
-          </td>
-        </tr>
-        <tr>
-          <th class="row-sub-h" scope="row">
-            Supply Chain Security Compromise
-          </th>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-22"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-23"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-24"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-25"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-26"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-27"></div>
-            </div>
-          </td>
-          <td>
-            <div class="card failed-border bg-grey">
-              <div class="card-info">
-                <h5 class="card-score failed-colour">0%</h5>
-                <h5 class="card-status failed-colour">Failed</h5>
-              </div>
-              <div class="card-graph" id="card-graph-28"></div>
-            </div>
-          </td>
-        </tr>
-      </table>
-
+      </div>
 
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
