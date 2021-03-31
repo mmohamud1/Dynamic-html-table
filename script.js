@@ -1,6 +1,7 @@
-var jsonData = require('./data.json')
-
-console.log(jsonData)
+$.getJSON("data.json", function(json) {
+    console.log(json)
+    
+});
 
 
 
